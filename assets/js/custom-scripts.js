@@ -401,6 +401,7 @@
 
         themeToggle.addEventListener('click', (e) => {
             e.preventDefault();
+            e.stopImmediatePropagation();
             body.classList.toggle('dark-mode');
             
             if (body.classList.contains('dark-mode')) {

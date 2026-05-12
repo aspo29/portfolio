@@ -3493,28 +3493,35 @@ BLOG Pagination
 }
 
 /* Theme Toggle Style */
-.theme-toggle {
-    background: transparent !important;
-    border: none !important;
-    color: #444 !important;
-    padding: 10px 15px !important;
-    margin-left: 10px;
+.theme-toggle.nav-link {
     cursor: pointer;
-    outline: none !important;
-    box-shadow: none !important;
+    display: inline-block;
+    padding: 10px 15px !important;
 }
 .theme-toggle i {
     font-size: 1.2rem;
     transition: transform 0.3s ease;
 }
-body.dark-mode .theme-toggle {
+.white-vertion .theme-toggle i {
+    color: #444 !important;
+}
+body.dark-mode .theme-toggle i {
     color: #ffca28 !important;
+}
+
+/* Global Section Title Spacing */
+.section-title h2 {
+    margin-bottom: 80px !important;
+}
+.section-title h3 {
+    margin-bottom: 80px !important;
 }
 
 /* Smooth Transition for Theme Switch */
 body, body * {
     transition: background-color 0.4s ease, color 0.4s ease, border-color 0.4s ease, box-shadow 0.4s ease;
 }
+
 
 /* Base Light Mode Visibility (Ensuring text is dark when NOT in dark-mode) */
 .white-vertion p,
