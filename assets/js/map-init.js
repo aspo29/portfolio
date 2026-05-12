@@ -1,5 +1,5 @@
  
-    google.maps.event.addDomListener(window, 'load', init);
+
     function init() {
         var mapOptions = {
           zoom: 17,

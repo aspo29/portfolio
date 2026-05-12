@@ -3451,6 +3451,11 @@ BLOG Pagination
 /* # sourceMappingURL=styles.css.map  */
 
 /* Custom Certifications Style */
+.mh-certificate {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    clear: both;
+}
 .mh-certificate-item {
     padding: 40px 20px;
     text-align: center;
@@ -3458,10 +3463,12 @@ BLOG Pagination
     margin-bottom: 30px;
     transition: all 0.3s ease;
     height: 100%;
+    display: block; /* Fallback for Firefox */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    min-height: 350px;
 }
 .mh-certificate-item:hover {
     transform: translateY(-10px);
@@ -3516,25 +3523,37 @@ body.dark-mode h5,
 body.dark-mode h6,
 body.dark-mode .nav-link,
 body.dark-mode .mh-header-info h2,
-body.dark-mode .mh-about-inner h2 {
+body.dark-mode .mh-about-inner h2,
+body.dark-mode .mh-about-inner p,
+body.dark-mode .mh-service-item h3,
+body.dark-mode .mh-work-item h4,
+body.dark-mode .mh-education-item h4 {
     color: #ffffff !important;
 }
 body.dark-mode p,
 body.dark-mode span,
-body.dark-mode li {
-    color: #bbbbbb !important;
+body.dark-mode li,
+body.dark-mode address {
+    color: #dddddd !important;
 }
 body.dark-mode .mh-header.nav-strict {
     background-color: #000000 !important;
 }
 body.dark-mode .shadow-1, 
 body.dark-mode .shadow-2 {
-    box-shadow: 0 5px 15px rgba(0,0,0,0.5) !important;
+    box-shadow: 0 5px 25px rgba(0,0,0,0.8) !important;
 }
 body.dark-mode .mh-certificate-item.dark-bg {
-    background-color: #1e1e24 !important;
+    background-color: #222228 !important;
 }
 body.dark-mode .form-control {
     color: #fff !important;
-    border-color: rgba(255,255,255,0.1) !important;
+    border-color: rgba(255,255,255,0.2) !important;
+}
+body.dark-mode .btn-fill {
+    background-color: #F1688F !important;
+    color: #fff !important;
+}
+body.dark-mode .nav-link:hover {
+    color: #F1688F !important;
 }
