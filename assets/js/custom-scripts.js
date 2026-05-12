@@ -419,8 +419,8 @@
         });
     }
 
-    // Smooth Scroll for navigation links only (excluding theme toggle)
-    $('.navbar-nav a[href^="#"]:not(.theme-toggle)').on('click', function(event) {
+    // Smooth Scroll for navigation links only
+    $('.navbar-nav a[href^="#"]').on('click', function(event) {
         var target = $(this.getAttribute('href'));
         if( target.length ) {
             event.preventDefault();

@@ -3493,12 +3493,22 @@ BLOG Pagination
 }
 
 /* Theme Toggle Style */
+.theme-toggle {
+    background: transparent !important;
+    border: none !important;
+    color: #444 !important;
+    padding: 10px 15px !important;
+    margin-left: 10px;
+    cursor: pointer;
+    outline: none !important;
+    box-shadow: none !important;
+}
 .theme-toggle i {
     font-size: 1.2rem;
     transition: transform 0.3s ease;
 }
-.theme-toggle:hover i {
-    transform: rotate(20deg);
+body.dark-mode .theme-toggle {
+    color: #ffca28 !important;
 }
 
 /* Smooth Transition for Theme Switch */
@@ -3506,9 +3516,33 @@ body, body * {
     transition: background-color 0.4s ease, color 0.4s ease, border-color 0.4s ease, box-shadow 0.4s ease;
 }
 
+/* Base Light Mode Visibility (Ensuring text is dark when NOT in dark-mode) */
+.white-vertion p,
+.white-vertion span,
+.white-vertion li,
+.white-vertion address,
+.white-vertion .mh-header-contact a,
+.white-vertion .mh-header-contact i,
+.white-vertion .mh-service-item p,
+.white-vertion .mh-work-item p,
+.white-vertion .mh-education-item p,
+.white-vertion .pr-skill-name,
+.white-vertion .mh-cert-img i {
+    color: #444444;
+}
+
+.white-vertion h2,
+.white-vertion h3,
+.white-vertion h4,
+.white-vertion h5,
+.white-vertion h6 {
+    color: #222222;
+}
+
 /* Dark Mode Refinements */
 body.dark-mode {
     background-color: #111111 !important;
+    color: #eeeeee !important;
 }
 body.dark-mode.white-vertion.black-bg {
     background-color: #111111 !important;
@@ -3523,18 +3557,25 @@ body.dark-mode h5,
 body.dark-mode h6,
 body.dark-mode .nav-link,
 body.dark-mode .mh-header-info h2,
+body.dark-mode .mh-header-info h4,
 body.dark-mode .mh-about-inner h2,
 body.dark-mode .mh-about-inner p,
 body.dark-mode .mh-service-item h3,
+body.dark-mode .mh-service-item p,
 body.dark-mode .mh-work-item h4,
-body.dark-mode .mh-education-item h4 {
+body.dark-mode .mh-work-item span,
+body.dark-mode .mh-education-item h4,
+body.dark-mode .pr-skill-name,
+body.dark-mode .nome {
     color: #ffffff !important;
 }
 body.dark-mode p,
 body.dark-mode span,
 body.dark-mode li,
-body.dark-mode address {
-    color: #dddddd !important;
+body.dark-mode address,
+body.dark-mode .mh-header-contact a,
+body.dark-mode .mh-header-contact i {
+    color: #cccccc !important;
 }
 body.dark-mode .mh-header.nav-strict {
     background-color: #000000 !important;
@@ -3555,5 +3596,8 @@ body.dark-mode .btn-fill {
     color: #fff !important;
 }
 body.dark-mode .nav-link:hover {
+    color: #F1688F !important;
+}
+body.dark-mode .mh-cert-img i {
     color: #F1688F !important;
 }

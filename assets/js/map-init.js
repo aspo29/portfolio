@@ -1,6 +1,10 @@
  
 
     function init() {
+        if (typeof google === 'undefined') {
+            console.warn('Google Maps API not loaded.');
+            return;
+        }
         var mapOptions = {
           zoom: 17,
           scrollwheel: false, 
@@ -21,11 +25,13 @@
           {"featureType":"administrative","elementType":"geometry.stroke","stylers":[{"color":"#fefefe"},{"lightness":17},{"weight":1.2}]}]
       };
       var mapElement = document.getElementById('mh-map');
-      var map = new google.maps.Map(mapElement, mapOptions);
-      var marker = new google.maps.Marker({
-          position: new google.maps.LatLng(24.906308,91.870413),
-          map: map,
-          title: '24 Golden Tower (2nd floor), Amborkhana, Sylhet.!'
-      });
+      if (mapElement) {
+          var map = new google.maps.Map(mapElement, mapOptions);
+          var marker = new google.maps.Marker({
+              position: new google.maps.LatLng(24.906308,91.870413),
+              map: map,
+              title: 'Aashutosh Poudel Office'
+          });
+      }
     }
 
