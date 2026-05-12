@@ -3644,8 +3644,14 @@ body.dark-mode .social-icon li a i:hover {
     color: #00c853 !important;
 }
 body.dark-mode .percentagem {
-    background-color: #00c853 !important; /* Keep progress green as it is a positive indicator */
+    background-color: #4f46e5 !important; /* Indigo for progress */
 }
 body.dark-mode .mh-progress path:nth-child(2) {
-    stroke: #00c853 !important;
+    stroke: #4f46e5 !important;
+}
+.percentagem {
+    background: #4f46e5 !important;
+}
+.mh-progress path:nth-child(2) {
+    stroke: #4f46e5 !important;
 }
