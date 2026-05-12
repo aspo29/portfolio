@@ -23,10 +23,10 @@
 [ Color codes ]
     
     [ Text and Background Color ]
-        Main color 1:       #1c93e5     
-        Main color 2:       #009688      
-        Main color 3:       #9c27b0
-        Main color 4:       #ff4081      
+        Main color 1:       #00c853     
+        Main color 2:       #00c853      
+        Main color 3:       #00c853
+        Main color 4:       #00c853      
         Background 1:       #FFFFFF            
         Background 2:       #F6F6F6           
         Shadow color:       #000000;            
@@ -356,7 +356,7 @@ a:focus {
 }
 
 .btn.btn-fill {
-  background-color: #F6879F;
+  background-color: #00c853;
   color: #fff;
 }
 
@@ -511,7 +511,7 @@ a:focus {
 }
 
 .email-loading {
-  color: #52B8FF;
+  color: #00c853;
 }
 
 .email-loading img {
@@ -522,7 +522,7 @@ a:focus {
 
 .subscription-failed,
 .email-failed {
-  color: #FF5252 !important;
+  color: #00c853 !important;
 }
 
 .subscription-failed .icon,
@@ -534,7 +534,7 @@ a:focus {
 
 .subscription-success,
 .email-success {
-  color: #56CC35;
+  color: #00c853;
 }
 
 .subscription-failed .icon,
@@ -608,7 +608,7 @@ ul li {
 }
 
 .dark-bg {
-  background-color: #202026;
+  background-color: #1a1a1a;
 }
 
 .section-separator {
@@ -863,7 +863,7 @@ h6 {
 .white-vertion .page-item.active .page-link {
   background-color: #fff;
   border-color: #fff;
-  color: #F1688F;
+  color: #00c853;
 }
 
 .white-vertion .navbar-toggler .icon,
@@ -955,7 +955,7 @@ h6 {
 }
 
 .white-vertion .mh-blog .mh-blog-item .blog-inner h2 a {
-  color: #202026;
+  color: #1a1a1a;
 }
 
 .white-vertion .shadow-1 {
@@ -1047,7 +1047,7 @@ h6 {
 }
 
 .dark-vertion .nav-strict {
-  background-color: #202026;
+  background-color: #1a1a1a;
 }
 
 .dark-vertion .img-color-overlay {
@@ -1061,7 +1061,7 @@ h6 {
 .dark-vertion .page-item.active .page-link {
   background-color: #fff;
   border-color: #fff;
-  color: #F1688F;
+  color: #00c853;
 }
 
 .dark-vertion .navbar-toggler .icon,
@@ -1331,7 +1331,7 @@ body {
 }
 
 .mh-header .navbar-nav li a:hover {
-  color: #F1688F;
+  color: #00c853;
 }
 
 .nav-3 .navbar-dark .navbar-nav .nav-link a {
@@ -1408,7 +1408,7 @@ body {
 }
 
 .mh-home-2 .mh-header-info ul.mh-home-contact li:hover .fa {
-  color: #F1688F;
+  color: #00c853;
 }
 
 .mh-home-2 .mh-header-info .mh-about-tag {
@@ -1439,7 +1439,7 @@ body {
 }
 
 .mh-home .mh-header-info .mh-promo span {
-  background-color: #F1688F;
+  background-color: #00c853;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 1px;
@@ -1483,7 +1483,7 @@ body {
 }
 
 .mh-home .mh-header-info ul li:hover .fa {
-  color: #F1688F;
+  color: #00c853;
 }
 
 .mh-home .mh-header-info .social-icon {
@@ -1592,7 +1592,7 @@ body {
 }
 
 .mh-about-tag ul li span {
-  border: 1px solid #F1688F;
+  border: 1px solid #00c853;
   padding: 4px 10px;
   border-radius: 4px;
 }
@@ -1675,7 +1675,7 @@ body {
 }
 
 .mh-progress path:nth-child(2) {
-  stroke: #F1688F;
+  stroke: #00c853;
 }
 
 .candidatos {
@@ -1734,7 +1734,7 @@ body {
   border-bottom-left-radius: 10px;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
-  background: #F1688F;
+  background: #00c853;
   -webkit-transition: 3s all;
   -webkit-animation-duration: 3s;
   -webkit-animation-name: animationProgress;
@@ -1795,12 +1795,12 @@ body {
 .mh-experince .mh-education-deatils .mh-education-item h4 a {
   font-style: italic;
   margin-left: 4px;
-  color: #F1688F;
+  color: #00c853;
 }
 
 .mh-experince .mh-education-deatils .mh-education-item .mh-eduyear {
   margin: 10px 0;
-  color: #F1688F;
+  color: #00c853;
 }
 
 .mh-experince .mh-education-deatils .mh-education-item p {
@@ -1849,12 +1849,12 @@ body {
 }
 
 .mh-work .mh-experience-deatils .mh-work-item h4 a {
-  color: #F1688F;
+  color: #00c853;
 }
 
 .mh-work .mh-experience-deatils .mh-work-item .mh-eduyear {
   margin: 10px 0;
-  color: #F1688F;
+  color: #00c853;
 }
 
 .mh-work .mh-experience-deatils .mh-work-item span {
@@ -1891,9 +1891,9 @@ body {
       margin: 0 10px;
       cursor: pointer; }
       .portfolio-nav ul li:hover {
-        color: #F1688F; }
+        color: #00c853; }
       .portfolio-nav ul li.active {
-        color: #F1688F; }
+        color: #00c853; }
 
 .mh-portfolio-modal {
   display: none;
@@ -1959,7 +1959,7 @@ body {
   font-size: 30px;
   line-height: 36px;
   margin-bottom: 20px;
-  color: #F1688F;
+  color: #00c853;
 }
 
 .mh-pricing .mh-pricing h4 {
@@ -1970,7 +1970,7 @@ body {
 .mh-pricing .mh-pricing h5 {
   font-size: 36px;
   line-height: 40px;
-  color: #F1688F;
+  color: #00c853;
   margin-bottom: 20px;
   margin-top: 20px;
 }
@@ -2020,7 +2020,7 @@ body {
     .mh-blog .mh-blog-item .blog-inner h2 a {
       color: #fff; }
     .mh-blog .mh-blog-item .blog-inner a {
-      color: #F1688F; }
+      color: #00c853; }
   .mh-blog .mh-blog-item img {
     margin-bottom: 30px; }
   .mh-blog .mh-blog-item h2 {
@@ -2030,7 +2030,7 @@ body {
     margin-bottom: 10px;
     color: #fff; }
     .mh-blog .mh-blog-item h2 a {
-      color: #F1688F; }
+      color: #00c853; }
       .mh-blog .mh-blog-item h2 a:hover {
         color: #0ac4a7; } */
 
@@ -2122,7 +2122,7 @@ body {
     width: inherit;
     float: none;
     margin: 0 auto;
-    border: 5px solid #F1688F;
+    border: 5px solid #00c853;
     margin: 0 auto;
     margin-bottom: 20px;
     border-radius: 50%; }
@@ -2155,12 +2155,12 @@ body {
 .mh-testimonial .owl-controls .owl-dots .owl-dot {
   height: 15px;
   width: 15px;
-  border: 1px solid #F1688F;
+  border: 1px solid #00c853;
   display: inline-block;
   border-radius: 50%;
   margin-right: 10px; }
 .mh-testimonial .owl-controls .owl-dots .owl-dot.active {
-  background-color: #F1688F; }
+  background-color: #00c853; }
 
 /*
     ==============
@@ -2257,7 +2257,7 @@ body {
   border-radius: 50%;
   line-height: 100px;
   font-size: 20px;
-  border-color: #F1688F;
+  border-color: #00c853;
 }
 
 /*
@@ -2404,7 +2404,7 @@ body {
   z-index: 990;
   margin-top: 0px;
   padding: 0;
-  background-color: #F1688F;
+  background-color: #00c853;
   transform: translateX(-100%) translateY(0) translateZ(0) rotate(0deg) scale(1);
   -o-transform: translateX(-100%) translateY(0) translateZ(0) rotate(0deg) scale(1);
   -ms-transform: translateX(-100%) translateY(0) translateZ(0) rotate(0deg) scale(1);
@@ -2546,7 +2546,7 @@ body {
 }
 
 .old .navbar-header .navbar-toggler .icon-bar {
-  background-color: #F1688F;
+  background-color: #00c853;
   -webkit-transition: all 0.4s ease-out;
   -moz-transition: all 0.4s ease-out;
   -o-transition: all 0.4s ease-out;
@@ -2586,7 +2586,7 @@ body {
   z-index: 990;
   margin-top: 0px;
   padding: 0;
-  background-color: #F1688F;
+  background-color: #00c853;
   transform: translateX(-100%) translateY(0) translateZ(0) rotate(0deg) scale(1);
   -o-transform: translateX(-100%) translateY(0) translateZ(0) rotate(0deg) scale(1);
   -ms-transform: translateX(-100%) translateY(0) translateZ(0) rotate(0deg) scale(1);
@@ -2685,7 +2685,7 @@ body {
   z-index: 990;
   margin-top: 0px;
   padding: 0;
-  background-color: #F1688F;
+  background-color: #00c853;
   transform: translateX(-100%) translateY(0) translateZ(0) rotate(0deg) scale(1);
   -o-transform: translateX(-100%) translateY(0) translateZ(0) rotate(0deg) scale(1);
   -ms-transform: translateX(-100%) translateY(0) translateZ(0) rotate(0deg) scale(1);
@@ -2827,7 +2827,7 @@ body {
 }
 
 .new .navbar-header .navbar-toggler .icon-bar {
-  background-color: #F1688F;
+  background-color: #00c853;
   -webkit-transition: all 0.4s ease-out;
   -moz-transition: all 0.4s ease-out;
   -o-transition: all 0.4s ease-out;
@@ -2867,7 +2867,7 @@ body {
   z-index: 990;
   margin-top: 0px;
   padding: 0;
-  background-color: #F1688F;
+  background-color: #00c853;
   transform: translateX(-100%) translateY(0) translateZ(0) rotate(0deg) scale(1);
   -o-transform: translateX(-100%) translateY(0) translateZ(0) rotate(0deg) scale(1);
   -ms-transform: translateX(-100%) translateY(0) translateZ(0) rotate(0deg) scale(1);
@@ -2964,7 +2964,7 @@ body {
       padding: 15px 0;
       border-bottom: 2px solid transparent; }
     .portfolio-nav ul li.current span {
-      border-bottom: 2px solid #F1688F; }
+      border-bottom: 2px solid #00c853; }
 
 .mh-project-gallery .grid-item figure {
   position: relative;
@@ -3164,7 +3164,7 @@ body {
   margin: 30px 0; }
   .mh-featured-project .mh-featured-item .mh-featured-project-content .project-category {
     font-size: 14px;
-    color: #F1688F;
+    color: #00c853;
     margin-top: 0;
     margin-bottom: 0;
     font-weight: 600;
@@ -3207,12 +3207,12 @@ body {
 .mh-single-project-slide .owl-controls .owl-dots .owl-dot {
   height: 15px;
   width: 15px;
-  border: 1px solid #F1688F;
+  border: 1px solid #00c853;
   display: inline-block;
   border-radius: 50%;
   margin-right: 10px; }
 .mh-single-project-slide .owl-controls .owl-dots .owl-dot.active {
-  background-color: #F1688F; }
+  background-color: #00c853; }
 
 .mh-single-project-slide-by-side .owl-next {
   position: absolute;
@@ -3256,11 +3256,11 @@ body {
 }
 
 .mh-service .mh-service-item .fa.purple-color {
-  color: #9774fa;
+  color: #00c853;
 }
 
 .mh-service .mh-service-item .fa.iron-color {
-  color: #ed7256;
+  color: #00c853;
 }
 
 .mh-service .mh-service-item .fa.sky-color {
@@ -3274,7 +3274,7 @@ body {
 }
 
 .mh-service .mh-service-item a {
-  color: #F1688F;
+  color: #00c853;
 }
 
 .mh-service .mh-service-item a .fa {
@@ -3303,7 +3303,7 @@ BLOG Pagination
     border: 1px solid #fff;
     font-weight: bold; }
     .mh-pagination .page-link:hover {
-      color: #F1688F; }
+      color: #00c853; }
   .mh-pagination .page-item:last-child .page-link {
     border-top-right-radius: 50%;
     border-bottom-right-radius: 50%; }
@@ -3355,7 +3355,7 @@ BLOG Pagination
     margin: 0 auto;
     border-radius: 50%; }
   .mh-author-info .social-icon li a:hover {
-    color: #F1688F; }
+    color: #00c853; }
 
 .mh-blog-category h4 {
   margin: 0;
@@ -3364,7 +3364,7 @@ BLOG Pagination
   display: block;
   margin: 2px 0; }
   .mh-blog-category ul li a:hover {
-    color: #F1688F; }
+    color: #00c853; }
 
 .mh-blog-insta ul li {
   width: 48%;
@@ -3395,7 +3395,7 @@ BLOG Pagination
     list-style-type: circle; }
 
 .mh-blog-next-prev-post a {
-  color: #F1688F; }
+  color: #00c853; }
   .mh-blog-next-prev-post a .fa {
     margin: 0 4px; }
 
@@ -3429,7 +3429,7 @@ BLOG Pagination
   margin-bottom: 30px; }
 
 .comment-deatils span {
-  color: #F1688F; }
+  color: #00c853; }
 
 .single-comment {
   overflow: hidden;
@@ -3477,7 +3477,7 @@ BLOG Pagination
 .mh-cert-img {
     font-size: 45px;
     margin-bottom: 20px;
-    color: #F1688F;
+    color: #00c853;
 }
 .mh-certificate-item h3 {
     font-size: 1.2rem;
@@ -3543,19 +3543,27 @@ body, body * {
 .white-vertion h4,
 .white-vertion h5,
 .white-vertion h6 {
-    color: #222222;
+    color: #1a1a1a;
+}
+
+/* Specific Icon Colors for Light Mode */
+.white-vertion .mh-service-item i,
+.white-vertion .mh-promo i,
+.white-vertion .mh-about-tag i,
+.white-vertion .mh-header-info i {
+    color: #00c853;
 }
 
 /* Dark Mode Refinements */
 body.dark-mode {
-    background-color: #111111 !important;
-    color: #eeeeee !important;
+    background-color: #000000 !important;
+    color: #f0f0f0 !important;
 }
 body.dark-mode.white-vertion.black-bg {
-    background-color: #111111 !important;
+    background-color: #000000 !important;
 }
 body.dark-mode .dark-bg {
-    background-color: #1a1a1a !important;
+    background-color: #111111 !important;
 }
 body.dark-mode h2, 
 body.dark-mode h3, 
@@ -3581,30 +3589,40 @@ body.dark-mode span,
 body.dark-mode li,
 body.dark-mode address,
 body.dark-mode .mh-header-contact a,
-body.dark-mode .mh-header-contact i {
+body.dark-mode .mh-header-contact i,
+body.dark-mode .mh-about-tag i {
     color: #cccccc !important;
 }
 body.dark-mode .mh-header.nav-strict {
     background-color: #000000 !important;
+    border-bottom: 1px solid rgba(255,255,255,0.05);
 }
 body.dark-mode .shadow-1, 
 body.dark-mode .shadow-2 {
-    box-shadow: 0 5px 25px rgba(0,0,0,0.8) !important;
+    box-shadow: 0 5px 25px rgba(0,0,0,0.9) !important;
 }
 body.dark-mode .mh-certificate-item.dark-bg {
-    background-color: #222228 !important;
+    background-color: #16161a !important;
+    border: 1px solid rgba(255,255,255,0.05);
 }
 body.dark-mode .form-control {
     color: #fff !important;
-    border-color: rgba(255,255,255,0.2) !important;
+    border-color: rgba(255,255,255,0.1) !important;
 }
 body.dark-mode .btn-fill {
-    background-color: #F1688F !important;
+    background-color: #00c853 !important;
     color: #fff !important;
 }
 body.dark-mode .nav-link:hover {
-    color: #F1688F !important;
+    color: #00c853 !important;
 }
-body.dark-mode .mh-cert-img i {
-    color: #F1688F !important;
+body.dark-mode .mh-cert-img i,
+body.dark-mode .mh-service-item i {
+    color: #00c853 !important;
+}
+body.dark-mode .social-icon li a i {
+    color: #ffffff !important;
+}
+body.dark-mode .social-icon li a i:hover {
+    color: #00c853 !important;
 }
