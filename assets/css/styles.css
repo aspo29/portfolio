@@ -1439,7 +1439,7 @@ body {
 }
 
 .mh-home .mh-header-info .mh-promo span {
-  background-color: #00c853;
+  background-color: #4f46e5;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 1px;
@@ -3630,9 +3630,12 @@ body.dark-mode .nav-link:hover {
     color: #00c853 !important;
 }
 body.dark-mode .mh-cert-img i,
-body.dark-mode .mh-service-item i,
+body.dark-mode .mh-service-item i {
+    color: #4f46e5 !important; /* Lighter Indigo for icons */
+}
 body.dark-mode .mh-promo span {
-    color: #4f46e5 !important; /* Lighter Indigo for icons and hero promo */
+    background-color: #4f46e5 !important;
+    color: #ffffff !important;
 }
 body.dark-mode .mh-certificate-item:hover .mh-cert-img i,
 body.dark-mode .mh-service-item:hover i {
