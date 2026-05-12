@@ -3550,20 +3550,30 @@ body, body * {
 .white-vertion .mh-service-item i,
 .white-vertion .mh-promo i,
 .white-vertion .mh-about-tag i,
-.white-vertion .mh-header-info i {
-    color: #00c853;
+.white-vertion .mh-header-info i,
+.white-vertion .mh-cert-img i {
+    color: #4f46e5; /* Indigo default */
+    transition: color 0.3s ease;
+}
+
+.white-vertion .mh-service-item:hover i,
+.white-vertion .mh-promo:hover i,
+.white-vertion .mh-about-tag:hover i,
+.white-vertion .mh-header-info:hover i,
+.white-vertion .mh-certificate-item:hover i {
+    color: #00c853 !important; /* Green on hover */
 }
 
 /* Dark Mode Refinements */
 body.dark-mode {
-    background-color: #000000 !important;
-    color: #f0f0f0 !important;
+    background-color: #050505 !important;
+    color: #e2e8f0 !important;
 }
 body.dark-mode.white-vertion.black-bg {
-    background-color: #000000 !important;
+    background-color: #050505 !important;
 }
 body.dark-mode .dark-bg {
-    background-color: #111111 !important;
+    background-color: #0f172a !important; /* Deep Navy Navy background */
 }
 body.dark-mode h2, 
 body.dark-mode h3, 
@@ -3591,7 +3601,7 @@ body.dark-mode address,
 body.dark-mode .mh-header-contact a,
 body.dark-mode .mh-header-contact i,
 body.dark-mode .mh-about-tag i {
-    color: #cccccc !important;
+    color: #94a3b8 !important;
 }
 body.dark-mode .mh-header.nav-strict {
     background-color: #000000 !important;
@@ -3599,30 +3609,43 @@ body.dark-mode .mh-header.nav-strict {
 }
 body.dark-mode .shadow-1, 
 body.dark-mode .shadow-2 {
-    box-shadow: 0 5px 25px rgba(0,0,0,0.9) !important;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5) !important;
 }
 body.dark-mode .mh-certificate-item.dark-bg {
-    background-color: #16161a !important;
-    border: 1px solid rgba(255,255,255,0.05);
+    background-color: #1e293b !important;
+    border: 1px solid rgba(255,255,255,0.03);
 }
 body.dark-mode .form-control {
     color: #fff !important;
     border-color: rgba(255,255,255,0.1) !important;
 }
 body.dark-mode .btn-fill {
-    background-color: #00c853 !important;
+    background-color: #4f46e5 !important;
     color: #fff !important;
+}
+body.dark-mode .btn-fill:hover {
+    background-color: #00c853 !important;
 }
 body.dark-mode .nav-link:hover {
     color: #00c853 !important;
 }
 body.dark-mode .mh-cert-img i,
 body.dark-mode .mh-service-item i {
+    color: #6366f1 !important; /* Lighter Indigo for icons */
+}
+body.dark-mode .mh-certificate-item:hover .mh-cert-img i,
+body.dark-mode .mh-service-item:hover i {
     color: #00c853 !important;
 }
 body.dark-mode .social-icon li a i {
-    color: #ffffff !important;
+    color: #94a3b8 !important;
 }
 body.dark-mode .social-icon li a i:hover {
     color: #00c853 !important;
+}
+body.dark-mode .percentagem {
+    background-color: #00c853 !important; /* Keep progress green as it is a positive indicator */
+}
+body.dark-mode .mh-progress path:nth-child(2) {
+    stroke: #00c853 !important;
 }
