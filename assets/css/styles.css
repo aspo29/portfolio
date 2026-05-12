@@ -3630,8 +3630,9 @@ body.dark-mode .nav-link:hover {
     color: #00c853 !important;
 }
 body.dark-mode .mh-cert-img i,
-body.dark-mode .mh-service-item i {
-    color: #6366f1 !important; /* Lighter Indigo for icons */
+body.dark-mode .mh-service-item i,
+body.dark-mode .mh-promo span {
+    color: #4f46e5 !important; /* Lighter Indigo for icons and hero promo */
 }
 body.dark-mode .mh-certificate-item:hover .mh-cert-img i,
 body.dark-mode .mh-service-item:hover i {
